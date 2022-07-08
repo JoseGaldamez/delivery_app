@@ -11,14 +11,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'App Delivery',
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Delivery App'),
-        ),
-        body: const Center(
-          child: Text('Hola mundo, on Windows'),
-        ),
-      ),
       routes: {
         "login": (context) => const LoginPage(),
       },
