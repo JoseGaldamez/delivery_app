@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
           title: const Text('Delivery App'),
         ),
         body: const Center(
-          child: Text('Hola mundo'),
+          child: Text('Hola mundo, on Windows'),
         ),
       ),
       routes: {
